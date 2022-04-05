@@ -1,4 +1,4 @@
-# Auto refund
+# Auto reinvestment
 Python / Brownie scripts for interaction with AAVE protocol.
 Allows automatically deposit and borrow specified amounts of given tokens in AAVE v2 protocol.
 
