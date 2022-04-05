@@ -1,0 +1,28 @@
+dependencies:
+  - aave/protocol-v2@1.0.1
+compiler:
+  solc:
+    remappings:
+      - '@aave=aave/protocol-v2@1.0.1'
+dotenv: .env
+networks:  
+  polygon-test:
+    wmatic_token: '0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889'
+    weth_token: '0xA6FA4fB5f76172d178d61B04b0ecd319C5d1C0aa'
+    dai_token: '0x001B3B4d0F3714Ca98ba10F6042DaEbF0B1B7b6F'
+    usdc_token: '0x2058A9D7613eEE744279e3856Ef0eAda5FCbaA7e'
+    lending_pool_addresses_provider: '0x178113104fEcbcD7fF8669a0150721e231F0FD4B'
+  polygon-main:
+    wmatic_token: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270'
+    weth_token: '0x7ceb23fd6bc0add59e62ac25578270cff1b9f619'
+    dai_token: '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063'
+    usdc_token: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174'
+    lending_pool_addresses_provider: '0xd05e3E715d945B59290df0ae8eF85c1BdB684744'
+  polygon-main-fork:
+    wmatic_token: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270'
+    weth_token: '0x7ceb23fd6bc0add59e62ac25578270cff1b9f619'
+    dai_token: '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063'
+    usdc_token: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174'
+    lending_pool_addresses_provider: '0xd05e3E715d945B59290df0ae8eF85c1BdB684744'
+wallets:
+    from_key: ${PRIVATE_KEY}
