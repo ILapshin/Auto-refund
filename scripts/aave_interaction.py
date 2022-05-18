@@ -6,7 +6,7 @@ from web3 import Web3
 # Python scripts for automated reinvesting new crypto.
 # This module implements investing in AAVE say WETH in Polygon
 # and borroing say DAI of a specified amount safe enough for not being liquidated
-# for farther investing in DiFi protocols say Balancer.
+# for farther investing in DeFi protocols say Balancer.
 #
 ##################################################################
 
